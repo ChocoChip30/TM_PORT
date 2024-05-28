@@ -381,6 +381,7 @@ span {
 .about-heading{
     text-align: center;
     font-size: 4.5rem;
+    margin-bottom: 20px;
 }
 
 section {
@@ -408,4 +409,12 @@ section {
 .about-p {
     color: var(--dark-bg-color);
     font-size: 1.5rem;
+}
+
+.proj-title{
+    font-size: 1rem;
+}
+
+.carousel {
+    margin-right: 50px;
 }
