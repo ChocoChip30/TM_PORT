@@ -88,7 +88,7 @@ header {
 }
 
 .about-img {
-    max-width: 300px; /* Set the maximum width of the image to 100% of its container */
+    max-width: 500px; /* Set the maximum width of the image to 100% of its container */
     height: auto;
     border-radius: 20px;
 }
@@ -381,14 +381,25 @@ span {
 .about-heading{
     text-align: center;
     font-size: 4.5rem;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.about-content h3 {
+    font-size: 2rem;
+    font-style: italic;
+    color: #6a5579;
+    margin-bottom: 10px;
 }
 
 section {
     margin-bottom: 100px; 
 }
 
-.mySlides {display:none;}
+.mySlides {
+    display:none;
+    width: 100%;
+    height: auto
+}
   
 /* Fading animation */
 .fade {
@@ -409,6 +420,8 @@ section {
 .about-p {
     color: var(--dark-bg-color);
     font-size: 1.5rem;
+    margin-bottom: 20px;
+    
 }
 
 .proj-title{
@@ -417,4 +430,29 @@ section {
 
 .carousel {
     margin-right: 50px;
+}
+
+.tiny-note {
+    font-size: 1rem;
+    color: rgb(125, 80, 125);
+    margin: 5px;
+}
+
+.contact-box {
+    background-color: var(--light-bg-color);
+    color: var(--dark-bg-color);
+    border-radius: 20px;
+    margin: 10px;
+    display: inline-block;
+    
+}
+
+.contact-box p {
+    margin: 20px;
+}
+
+.contact-box-outer {
+    align-items: center;
+    width:800px; 
+    margin:0 auto;
 }
